@@ -96,7 +96,7 @@ enum Colors {
 
 
 //color="#6CACE4" icon="\uf1e3" block="FIFA:bit"
-//% color="#6CACE4" icon="\uf1e3" block="FIFA:bit"
+//% color="#6CACE4" icon="\uf1e3" block="ICreate Football"
 namespace ICreateFootball {
     //#########################################################################
     //################################## 运动（双电机）#########################
