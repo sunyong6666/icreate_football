@@ -3,14 +3,19 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "block/lcd1602.ts",
+        "block/sensor.ts",
+        "block/ultrasonic.ts",
+        "block/veml6040.ts",
+        "block/joystick.ts",
+        "block/line.ts",
+        "_locales/zh/fifabit-strings.json",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"

@@ -1,0 +1,132 @@
+
+{
+    "motionType.type1|block": "前进",
+    "motionType.type2|block": "后退",
+    "motionType.type3|block": "左转",
+    "motionType.type4|block": "右转",
+    "motionType1.type1|block": "前进",
+    "motionType1.type2|block": "后退",
+    "motionType2.type1|block": "左转",
+    "motionType2.type2|block": "右转",
+    "motorDirection.clockwise|block": "正转",
+    "motorDirection.counterclockwise|block": "反转",
+    
+
+    "{id:group}Motion": "运动",
+    "ICreateFootball.motionSpeed|block": "%mtype 速度 %mspeed",
+    "ICreateFootball.motionDistance|block": "%mtype 速度 %mspeed 距离 %distance 厘米",
+    "ICreateFootball.motionAngle|block": "%mtype 速度 %mspeed 角度 %angle °",
+    "ICreateFootball.motionStop|block": "停止运动",
+
+    "{id:group}Motor": "电机",
+    "ICreateFootball.motorGetSpeed|block": "读取电机 %mID 速度",
+    "ICreateFootball.motorGetAngle|block": "读取电机 %mID 编码值",
+    "ICreateFootball.motorSetSpeed|block": "设置电机 %mID 速度为 %speed",
+    "ICreateFootball.motorRun|block": "电机 %mID %direction 运行",
+    "ICreateFootball.motorRunDistance|block": "电机 %mID %direction 运行 %distance 厘米",
+    "ICreateFootball.motorRunAngle|block": "电机 %mID %direction 转动 %angle 度",
+    "ICreateFootball.motorRunSpeed|block": "电机 %mID %direction 速度 %speed运行",
+    "ICreateFootball.motorStop|block": "电机 %mID 停止",
+
+
+
+    "{id:group}Servo Motor": "舵机",
+
+    "RotationDirection.Clockwise|block": "顺时针",
+    "RotationDirection.Counterclockwise|block": "逆时针",
+
+    "ICreateFootball.servo1Set|block": "设置180舵机 %pin 角度为 %value °",
+    "ICreateFootball.servo1Stop|block": "停止180舵机 %pin",
+    "ICreateFootball.servo360Run|block": "360舵机 %pin 以速度 %speed %direction 转动",
+    "ICreateFootball.servo360_run_with_duration|block": "360舵机 %pin 以速度 %speed %direction |转动 %duration 秒",
+    "ICreateFootball.servo360Stop|block": "停止360舵机 %pin",
+
+
+
+    "{id:group}LED Strip": "灯带",
+
+    "Colors.Red": "红色",
+    "Colors.Orange": "橙色",
+    "Colors.Yellow": "黄色",
+    "Colors.Green": "绿色",
+    "Colors.Cyan": "青色",
+    "Colors.Blue": "蓝色",
+    "Colors.Purple": "紫色",
+    "Colors.White": "白色",
+    "Colors.Black": "黑色",
+
+    "ICreateFootball.initStrip|block": "初始化灯带引脚 %pin 灯数 %ledCount",
+    "ICreateFootball.setBrightness|block": "设置亮度 %brightness",
+    "ICreateFootball.setAllColor|block": "设置全部灯为颜色 %color",
+    "ICreateFootball.setAllRGB|block": "设置全部灯 R %red G %green B %blue",
+    "ICreateFootball.setLEDColor|block": "设置第 %index 个灯为颜色 %color",
+    "ICreateFootball.setLEDRGB|block": "设置第 %index 个灯 R %red G %green B %blue",
+    "ICreateFootball.clearAll|block": "熄灭全部灯",
+
+
+
+    "{id:group}LCD1602": "LCD1602",
+
+    "LcdBacklight.On": "开",
+    "LcdBacklight.Off": "关",
+
+    "ICreateFootball.lcd1602_init|block": "初始化 LCD1602",
+    "ICreateFootball.lcd1602_clear|block": "清屏",
+    "ICreateFootball.showAt|block": "显示 %text 在第 %row 行第 %col 列",
+    "ICreateFootball.showNumber|block": "显示数字 %num 在第 %row 行第 %col 列",
+    "ICreateFootball.setBacklight|block": "设置背光 %state",
+
+
+    "{id:group}Line Tracking Sensor": "巡线传感器",
+
+    "SensorSide.Left": "左",
+    "SensorSide.Middle": "中",
+    "SensorSide.Right": "右",
+
+    "ICreateFootball.initSensors|block": "初始化巡线传感器引脚|左探头%left|中探头%middle|右探头%right",
+    "ICreateFootball.detectLine|block": "%position 探头检测到黑线？",
+    "ICreateFootball.readSensorValue|block": "读取 %position 探头值",
+
+
+    "{id:group}Potentiometer": "电位器",
+    "ICreateFootball.readRawValue|block": "读取电位器 %pin 原始值",
+    "ICreateFootball.readPercentage|block": "读取电位器 %pin 百分比",
+
+    "{id:group}Soil Moisture Sensor": "土壤湿度",
+    "ICreateFootball.readRawValueTR|block": "读取土壤湿度 %pin 原始值",
+    "ICreateFootball.readPercentageTR|block": "读取土壤湿度 %pin 百分比",
+
+    "{id:group}Button": "按键",
+    "ICreateFootball.isPressed|block": "按键 %pin 是否按下?",
+
+    "{id:group}Joystick": "摇杆",
+    "JoyDirection.Up": "上",
+    "JoyDirection.Down": "下",
+    "JoyDirection.Left": "左",
+    "JoyDirection.Right": "右",
+    "ICreateFootball.initJoystick|block": "初始化摇杆|X %xPin|Y %yPin|按键 %swPin",
+    "ICreateFootball.rocker|block": "读取摇杆 %direction 数值",
+    "ICreateFootball.rockerori|block": "摇杆检测到 %orientation 方向?",
+    "ICreateFootball.isJoystickPressed|block": "摇杆按键被按下",
+    
+    "{id:group}Ultrasonic": "超声波",
+    "ICreateFootball.initUltrasonic|block": "初始化超声波|Trig脚 %trig|Echo脚 %echo",
+    "ICreateFootball.readDistance|block": "读取超声波距离（cm）",
+
+
+    "{id:group}Color Sensor": "颜色传感器",
+    "DetectedColor.Red": "红色",
+    "DetectedColor.Orange": "橙色",
+    "DetectedColor.Yellow": "黄色",
+    "DetectedColor.Green": "绿色",
+    "DetectedColor.Cyan": "青色",
+    "DetectedColor.Blue": "蓝色",
+    "DetectedColor.Purple": "紫色",
+
+    "ICreateFootball.init_veml|block": "初始化颜色传感器",
+    "ICreateFootball.isColorDetected|block": "识别到颜色 %color?",
+    "ICreateFootball.readRGBValue|block": "读取 %channel 值",
+    "ICreateFootball.readWhiteValue|block": "读取亮度值"
+    
+    
+}
